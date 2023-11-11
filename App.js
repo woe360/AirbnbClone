@@ -4,6 +4,7 @@ import {SafeAreaView, StyleSheet, StatusBar} from 'react-native';
 import Entype from 'react-native-vector-icons/Entypo';
 
 import HomeSceen from './src/screens/Home';
+import SearchResultScreen from './src/screens/searchResults';
 import Post from './src/components/Post';
 
 import feed from './assets/data/feed';
@@ -15,7 +16,8 @@ const App = () => {
   return (
     <SafeAreaView>
       {/*<HomeSceen />*/}
-      <Post post={post2}/>
+      {/*<Post post={post2}/>*/}
+      <SearchResultScreen />
     </SafeAreaView>
   );
 };
